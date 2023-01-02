@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add News</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="banner">
+	<img src="image/logo.jpg" id="logo">
+	<h1 id="head">Best Websit for sport</h1>
+
+</div>
+<div id="menu">
+	
+	<nav>
+		<ul>
+			<li>
+				<a href="home.html">Home</a>
+			</li>
+			<li>
+				<a href="player.html">Players</a>
+			</li>
+			<li>
+				<a href="jym.html">Jymnaziam</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+<div id="contanner">
+	<form method="post" enctype="multiple/form-data" onload="return addValidat();">
+	<select name="select" id="type">
+		<option value="player">News</option>
+		<option value="news">Player</option>
+		<option value="Jym">Jymnaziam</option>
+	</select>
+
+	<input type="text" placeholder="Type the title" name="heading" id="head">
+	
+	<textarea id="article"></textarea>
+	<input type="file" name="photo" id="photo">
+	<input type="submit" name="m" id="submit">
+</form>
+</div>
+<div id="footer">
+	<ul>
+		<li><a href="#">Facebook</a></li>
+		<li><a href="#">Whatsapp</a></li>
+		<li><a href="#">www.HeyDay.af</a></li>
+	</ul>
+</div>
+<script type="text/javascript" src="javaScript.js"></script>
+</body>
+</html>
